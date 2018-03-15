@@ -11,6 +11,7 @@ nbproject
 .buildpath
 .project
 .settings
+.htaccess
 
 # windows thumbnail cache
 Thumbs.db
