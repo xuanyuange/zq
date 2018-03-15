@@ -1,0 +1,316 @@
+[ 2016-10-19T09:21:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+
+[ 2016-10-19T09:27:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+
+[ 2016-10-19T09:28:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015871s ]
+
+[ 2016-10-19T10:51:07+08:00 ] 127.0.0.1 /Home/WX/index?signature=2118d7baf1ba7adf03dcf7ec04bd1c5c8069c1ee&timestamp=1476845467&nonce=1991225091&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0388s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0057s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%111%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-10-19T10:51:11+08:00 ] 127.0.0.1 /Home/WX/index?signature=af24b95d29cb06a538b20f77a1f972826909e4f5&timestamp=1476845471&nonce=2136017403&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0050s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%测试%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `think_keyword_text` [ RunTime:0.0036s ]
+SQL: SELECT `content` FROM `think_keyword_text` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-10-19T10:52:31+08:00 ] 127.0.0.1 /Home/WX/index?signature=1aaf60dd0a11a5352762dd07cd8eba23e2e98b19&timestamp=1476845551&nonce=735964620&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0032s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%煞笔%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_keyword_text` [ RunTime:0.0024s ]
+SQL: SELECT `content` FROM `think_keyword_text` WHERE `id` = 2 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-19T10:53:23+08:00 ] 127.0.0.1 /Home/WX/index?signature=e46478dad4cf39d7dceebf70c2c093d0915e1468&timestamp=1476845603&nonce=2026461089&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0040s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%你好%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2016-10-19T10:53:34+08:00 ] 127.0.0.1 /Home/WX/index?signature=56f17c5c3a966ab67096b07a9b0417ec7ed46e95&timestamp=1476845614&nonce=1873168846&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0027s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%你好%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_keyword_text` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `think_keyword_text` WHERE `id` = 3 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-19T10:54:07+08:00 ] 127.0.0.1 /Home/WX/index?signature=97c8dc6dddefc5a142ad4f34b4c0b3fda99d8f7a&timestamp=1476845647&nonce=739450638&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0027s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: data F:\lr\Application\Home\Controller\WXController.class.php 第 57 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\lr\Application\Home\Controller\WXController.class.php 第 129 行.
+
+[ 2016-10-19T10:54:44+08:00 ] 127.0.0.1 /Home/WX/index?signature=dfb4dfd66dcbf1714418a1273aa69e09b85ee1e0&timestamp=1476845684&nonce=798019574&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0027s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-19T10:55:46+08:00 ] 127.0.0.1 /Home/WX/index?signature=49bb1366d5b35d7846abd726413732e4c80a349b&timestamp=1476845746&nonce=1299924417&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0025s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Uninitialized string offset: 1 F:\lr\Application\Home\Controller\WXController.class.php 第 131 行.
+NOTIC: [8] Uninitialized string offset: 2 F:\lr\Application\Home\Controller\WXController.class.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 3 F:\lr\Application\Home\Controller\WXController.class.php 第 133 行.
+NOTIC: [8] Uninitialized string offset: 4 F:\lr\Application\Home\Controller\WXController.class.php 第 134 行.
+NOTIC: [8] Uninitialized string offset: 3 F:\lr\Application\Home\Controller\WXController.class.php 第 133 行.
+NOTIC: [8] Uninitialized string offset: 4 F:\lr\Application\Home\Controller\WXController.class.php 第 134 行.
+NOTIC: [8] Uninitialized string offset: 4 F:\lr\Application\Home\Controller\WXController.class.php 第 134 行.
+NOTIC: [8] Uninitialized string offset: 3 F:\lr\Application\Home\Controller\WXController.class.php 第 133 行.
+NOTIC: [8] Uninitialized string offset: 4 F:\lr\Application\Home\Controller\WXController.class.php 第 134 行.
+NOTIC: [8] Uninitialized string offset: 3 F:\lr\Application\Home\Controller\WXController.class.php 第 133 行.
+NOTIC: [8] Uninitialized string offset: 4 F:\lr\Application\Home\Controller\WXController.class.php 第 134 行.
+NOTIC: [8] Undefined variable: toUser F:\lr\Application\Home\Controller\WXController.class.php 第 136 行.
+NOTIC: [8] Uninitialized string offset: 1 F:\lr\Application\Home\Controller\WXController.class.php 第 131 行.
+NOTIC: [8] Uninitialized string offset: 2 F:\lr\Application\Home\Controller\WXController.class.php 第 132 行.
+NOTIC: [8] Uninitialized string offset: 3 F:\lr\Application\Home\Controller\WXController.class.php 第 133 行.
+NOTIC: [8] Uninitialized string offset: 4 F:\lr\Application\Home\Controller\WXController.class.php 第 134 行.
+
+[ 2016-10-19T11:26:22+08:00 ] 127.0.0.1 /Home/WX/index?signature=d7c3029affe5eb2e4dff35a3810055a362d86632&timestamp=1476847582&nonce=1166358972&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0028s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%测试%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_keyword_text` [ RunTime:0.0022s ]
+SQL: SELECT `content` FROM `think_keyword_text` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-19T11:26:27+08:00 ] 127.0.0.1 /Home/WX/index?signature=b89343795334cc3664c1d96a435144862b3165ec&timestamp=1476847585&nonce=945788742&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0025s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 2 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-19T11:26:46+08:00 ] 127.0.0.1 /Home/WX/index?signature=54420f9a8af24e8ed5f3c439f6410e0b5aefd958&timestamp=1476847606&nonce=326643791&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0037s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-19T11:29:18+08:00 ] 127.0.0.1 /Home/WX/index?signature=ce4b99ff504734c30c8038852cf8f67b8fdb03de&timestamp=1476847758&nonce=2144908670&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0023s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-19T11:30:38+08:00 ] 127.0.0.1 /Home/WX/index?signature=c7212fdf4aa3103ddfebd42b4eae87607b870751&timestamp=1476847838&nonce=2099701046&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0036s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-19T11:31:00+08:00 ] 127.0.0.1 /Home/WX/index?signature=f2d5da866f08f9cf695b81cb9862553414212732&timestamp=1476847860&nonce=1712408915&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0038s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 2 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-19T11:31:55+08:00 ] 127.0.0.1 /Home/WX/index?signature=9bff99b5c237c6491eca5adf44badd50e133fb73&timestamp=1476847915&nonce=1440750746&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0055s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 2 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-10-19T11:44:13+08:00 ] 127.0.0.1 /Home/WX/index?signature=ec68ab6d210d76b8bd729299c8c815ab09d1681c&timestamp=1476848652&nonce=808516208&openid=o81uSwYCjXGj53CVEPzjsERcslgo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+NOTIC: [8] Undefined index: echostr F:\lr\Application\Home\Controller\WXController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_wx_user` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `think_wx_user` WHERE `openid` = 'o81uSwYCjXGj53CVEPzjsERcslgo' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `think_keyword` [ RunTime:0.0048s ]
+SQL: SELECT `return_type`,`return_id` FROM `think_keyword` WHERE `keyword` LIKE '%报名%' AND `deleted` = 0 ORDER BY sort desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `think_keyword_graphic` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `think_keyword_graphic` WHERE `id` = 1 AND `deleted` = 0 LIMIT 1   [ RunTime:0.0014s ]
+
